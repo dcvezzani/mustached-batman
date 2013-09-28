@@ -1,0 +1,9 @@
+.*.sw*
+.sw*
+.DS_Store
+target/
+
+work.txt
+work2.txt
+results.txt
+
