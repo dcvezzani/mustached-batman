@@ -54,14 +54,6 @@
       xmlns:s="http://apache.org/hello_world_soap_http">
         
       <jaxws:properties>
-         <entry key="ws-security.signature.properties" value="serviceKeystore.properties"/>
-         <entry key="ws-security.signature.username" value="myservicekey"/>
-
-         <entry key="ws-security.callback-handler" 
-                value="demo.wssec.server.ServerCallbackHandler"/>
-
-         <entry key="ws-security.encryption.properties" value="serviceKeystore.properties"/>
-         <entry key="ws-security.encryption.username" value="myclientkey"/>
       </jaxws:properties> 
     </jaxws:endpoint>
 
