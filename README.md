@@ -9,7 +9,17 @@ To run the encrypted examples, use the <code>master</code> or <code>encrypted</c
     git checkout master
     git checkout encrypted
 
-To compare with an unencrypted example, use the <code>unencrypted</code> branch.
+Then open two terminals: one will be used to run the server and the other to run the client.
+
+In the 'server' terminal, start up the server
+
+    mvn -Pserver
+
+Once the server is running, in the 'client' terminal, run the client
+
+    mvn -Pclient
+
+To compare the encrypted payload with that in an unencrypted example, use the <code>unencrypted</code> branch.
 
     git checkout unencrypted
 
